@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow-y: hidden;
+  /* background: linear-gradient(135deg, #3f3772 20%, #8c81d1); */
+  background: linear-gradient(135deg, #153677, #4e085f);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.container {
+  margin: 12%;
+  width: 90%;
+  max-width: 700px;
+}
+.display {
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: #fff;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 20px;
+  border-radius: 12px;
+  height: 74px;
+}
+.container h1 {
+  font-weight: 500;
+  font-size: 45px;
+}
+.container h1 span {
+  color: #019f55;
+  border-bottom: 4px solid #019f55;
+  padding-bottom: 7px;
+}
+.copy-icon {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+.display input {
+  border: 0;
+  outline: 0;
+  font-size: 24px;
+}
+.container button svg {
+  margin-right: 10px;
+  height: 36px;
+  width: 36px;
+}
+.container button {
+  border: 0;
+  outline: 0;
+  background: #019f55;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 26px;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 62px;
+}
+.copyIcon {
+  fill: #019f55;
+}
